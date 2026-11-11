@@ -1,0 +1,8 @@
+time=int(input("please enter a duration in seconds:"))
+days,rest=divmod(time,3600*24)
+hours,rest2=divmod(rest,3600)
+minutes,seconds=divmod(rest2,60)
+print("days:",days)
+print("hours:",hours)
+print("minutes:",minutes)
+print("seconds:",seconds)
